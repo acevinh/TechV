@@ -86,34 +86,28 @@ Version:  1.0.0
 1.0 DEFAUL SETTING
 ========================================================================== */
 @font-face {
-	font-family: 'sofia_proregular';
-	src: url('../fonts/sofia_pro_regular.otf') format('opentype');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'sofia_prolight';
+    src: url('../fonts/sofia_pro_light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
-	font-family: 'sofia_prolight';
-	src: url('../fonts/sofia_pro_light.otf') format('opentype');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'sofia_promedium';
+    src: url('../fonts/sofia_pro_medium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
-	font-family: 'sofia_promedium';
-	src: url('../fonts/sofia_pro_medium.otf') format('opentype');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'sofia_prosemibold';
+    src: url('../fonts/sofia_pro_semibold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
-	font-family: 'sofia_prosemibold';
-	src: url('../fonts/sofia_pro_semibold.otf') format('opentype');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'sofia_prosemibold';
-	src: url('../fonts/sofia_pro_bold.otf') format('opentype');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'sofia_probold';
+    src: url('../fonts/sofia_pro_bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 body {
 	max-width: 100%;
@@ -1505,13 +1499,13 @@ article.sticky .post-title a::before {
 2.0 DEFAULT SETTING
 ========================================================================== */
 html, body {
-	font-family: 'sofia_proregular', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 15px;
 	line-height: 26px;
 	color: #666666;
 }
 label {
-	font-family: 'sofia_promedium';
+	font-family: 'Roboto', sans-serif;
 	font-weight: normal;
 	color: #000;
 }
@@ -1534,7 +1528,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top: 12px;
 	margin-bottom: 18px;
 	font-weight: normal;
-	font-family: 'sofia_promedium';
+	font-family: 'Roboto', sans-serif;
 }
 blockquote, q {
 	color: #000;
@@ -1760,7 +1754,7 @@ th, td {
 	padding-left: 0;
 	list-style: none;
 	text-align: center;
-	height: 22px;
+	height: 25px;
 	margin-top: 40px;
 	position: relative;
 }
@@ -1769,7 +1763,7 @@ th, td {
 }
 .slick-dots li {
 	display: inline-block;
-	padding: 7px;
+	padding: 10px;
 	height: 28px;
 }
 .slick-dots li button {
@@ -1778,19 +1772,19 @@ th, td {
 	height: 14px;
 	padding: 0;
 	position: relative;
-	border: 2px solid #000;
+	border: 2px solid #ffffff;
 	border-radius: 12px;
 	background-color: transparent;
 }
 .slick-dots li button:hover::before,
 .slick-dots li.slick-active button::before {
 	position: absolute;
-	top: 3px;
-	left: 3px;
-	right: 3px;
-	bottom: 3px;
+	top: 1px;
+	left: 1px;
+	right: 1px;
+	bottom: 1px;
 	content: '';
-	background-color: #000;
+	background-color: #ff0000;
 	border-radius: 12px;
 }
 .slick-vertical {
@@ -3136,12 +3130,12 @@ th, td {
 	width: 320px;
 }
 .vertical-wrapper.block-nav-category .block-title {
-	padding: 0 15px 0 70px;
-	cursor: pointer;
-	color: #fff;
-	position: relative;
-	max-width: 320px;
-	border-radius: 4px;
+	padding: 0 15px 0 70px; 
+	cursor: pointer; 
+	color: #fff; 
+	position: relative; 
+	max-width: 320px; 
+	border-radius: 4px; 
 	background-color: #e52e06;
 }
 .vertical-wrapper.block-nav-category .block-title .before {
@@ -3171,14 +3165,16 @@ th, td {
 	width: 12px;
 }
 .vertical-wrapper.block-nav-category .block-title .text-title {
-	font-size: 14px;
+	font-size: 13px;
 	letter-spacing: 0.1em;
-	font-family: 'sofia_promedium';
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
 	text-transform: uppercase;
 	height: 60px;
 	line-height: 60px;
 	display: inline-block;
 	vertical-align: middle;
+	
 }
 .vertical-wrapper.block-nav-category:not(.has-open) .block-content {
 	visibility: hidden;
@@ -3317,7 +3313,7 @@ th, td {
 	padding: 15px 20px 14px;
 	position: relative;
 	text-align: center;
-	font-family: 'sofia_promedium';
+	font-family: 'Roboto', sans-serif;
 	letter-spacing: 0.1em;
 }
 .vertical-menu.default ~ .view-all-category a:not(:hover) {
@@ -3554,7 +3550,7 @@ th, td {
 	vertical-align: middle;
 }
 .header.style-04 .kobolg-live-search-form .txt-livesearch {
-	min-width: 320px;
+	min-width: 380px;
 }
 .header.style-04 .block-search .form-search .category {
 	padding: 0 10px;
@@ -3611,12 +3607,12 @@ th, td {
 	padding-right: 0;
 	float: right;
 }
-.header.style-04 .box-header-nav .main-menu > .menu-item:last-child > a:before {
-	content: "\f108";
+/* .header.style-04 .box-header-nav .main-menu > .menu-item:last-child > a:before {
+	content: "\f106";
 	font-family: 'Flaticon';
 	margin-right: 5px;
 	font-size: 18px;
-}
+} */
 .header.style-04 .box-header-nav .main-menu > .menu-item:last-child > a:not(:hover) {
 	color: inherit;
 }
@@ -13385,8 +13381,12 @@ body .az_toggle_default .az_toggle_content p:last-child {
 	color: #e52e06;
 }
 /*.slide-home-04*/
+.slide-home-04 {
+	width: 100%;
+}
 .slide-home-04 .slide-info {
 	text-align: left;
+
 }
 .slide-home-04 .slide-wrap .slide-info h1 {
 	font-size: 60px;
@@ -13395,6 +13395,9 @@ body .az_toggle_default .az_toggle_content p:last-child {
 }
 .slide-home-04 .slide-wrap img {
 	border-radius: 0;
+	width: 100%; /* Đảm bảo hình ảnh co dãn theo chiều rộng */
+    height: 400px; /* Chiều cao cố định */
+    object-fit: cover; /* Cắt hình ảnh vừa với khung */
 }
 .slide-home-04 .slide-wrap .slide-info h5 {
 	font-size: 60px;
@@ -15153,3 +15156,4 @@ body .kobolg-mapper .text__area {
 	width: 100%;
 	height: 100%;
 }
+
