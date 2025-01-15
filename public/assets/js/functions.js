@@ -557,12 +557,12 @@
             if (_winw > 1024) {
                 $(this).on('mouseenter', function () {
                     $(this).closest('.slick-list').css({
-                        'padding-left': '15px',
-                        'padding-right': '15px',
-                        'padding-bottom': '100px',
-                        'margin-left': '-15px',
-                        'margin-right': '-15px',
-                        'margin-bottom': '-100px'
+                        'padding-left': '0px',
+                        'padding-right': '0px',
+                        'padding-bottom': '0px',
+                        'margin-left': '0px',
+                        'margin-right': '0px',
+                        'margin-bottom': '0px'
                     });
                 });
                 $(this).on('mouseleave', function () {
