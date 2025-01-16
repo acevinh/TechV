@@ -29,17 +29,21 @@
 <body>
     {{-- header --}}
     @include('clients.blocks.header')
-    {{-- end header --}}
+  
     <div class="fullwidth-template">
         {{-- slide --}}
         @include('clients.blocks.banner')
-        {{-- endslide --}}
+     
         {{-- brand --}}
         @include('clients.blocks.brand')
-        {{-- end brand --}}
+      
         {{-- hot --}}
         @include('clients.fields.hot')
-        {{-- end hot --}}
+       
+{{-- flashsale --}}
+@include('clients.fields.flashSale')
+{{-- xiaomi --}}
+@include('clients.fields.xiaoMi')
         {{-- content --}}
         @yield('content')
     </div>

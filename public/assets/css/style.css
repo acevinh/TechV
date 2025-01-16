@@ -13733,8 +13733,8 @@ body .az_toggle_default .az_toggle_content p:last-child {
 	border-top: 1px solid #ebebeb;
 }
 .section-001 {
-	padding-top: 75px;
-	padding-bottom: 75px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 .section-002 {
 	padding-top: 75px;
@@ -13772,10 +13772,14 @@ body .az_toggle_default .az_toggle_content p:last-child {
 	padding-bottom: 75px;
 }
 .section-012 {
-	padding-top: 140px;
-	padding-bottom: 140px;
-	background-image: url(../images/bg-count.jpg);
-	background-size: cover;
+	margin-top: 20px;
+
+	/* width: 100%;
+	padding-top: 100px;
+	padding-bottom: 80px;
+	background-image: url('../images/bgcount.jpg');
+	background-position: center; 
+	background-size: cover; */
 }
 .section-013 {
 	padding-top: 75px;
@@ -14009,8 +14013,8 @@ body .az_toggle_default .az_toggle_content p:last-child {
 }
 @media (max-width: 1499px ) {
 	.section-001 {
-		padding-top: 65px;
-		padding-bottom: 65px;
+		padding-top: 0px;
+		padding-bottom: 0px;
 	}
 	.section-002 {
 		padding-top: 65px;
@@ -14022,8 +14026,8 @@ body .az_toggle_default .az_toggle_content p:last-child {
 		padding-bottom: 65px;
 	}
 	.section-012 {
-		padding-top: 110px;
-		padding-bottom: 110px;
+		padding-top: 70px;
+		padding-bottom: 50px;
 	}
 	.section-013 {
 		padding-top: 65px;
@@ -14086,8 +14090,8 @@ body .az_toggle_default .az_toggle_content p:last-child {
 		padding-bottom: 35px;
 	}
 	.section-001 {
-		padding-top: 55px;
-		padding-bottom: 55px;
+		padding-top: 0px;
+		padding-bottom:0px;
 	}
 	.section-002 {
 		padding-top: 55px;
@@ -14111,8 +14115,8 @@ body .az_toggle_default .az_toggle_content p:last-child {
 		padding-bottom: 55px;
 	}
 	.section-012 {
-		padding-top: 90px;
-		padding-bottom: 90px;
+		padding-top: 55px;
+		padding-bottom: 55px;
 	}
 	.section-013 {
 		padding-top: 55px;
@@ -14233,8 +14237,8 @@ body .az_toggle_default .az_toggle_content p:last-child {
 		padding-left: 0;
 	}
 	.section-001 {
-		padding-top: 45px;
-		padding-bottom: 45px;
+		padding-top: 0px;
+		padding-bottom: 0px;
 	}
 	.section-002 {
 		padding-top: 45px;
@@ -14249,8 +14253,8 @@ body .az_toggle_default .az_toggle_content p:last-child {
 		padding-bottom: 45px;
 	}
 	.section-012 {
-		padding-top: 55px;
-		padding-bottom: 55px;
+		padding-top: 40px;
+		padding-bottom:40px;
 	}
 	.section-013 {
 		padding-top: 45px;
@@ -14348,8 +14352,8 @@ body .az_toggle_default .az_toggle_content p:last-child {
 		padding-bottom: 10px;
 	}
 	.section-001 {
-		padding-top: 35px;
-		padding-bottom: 35px;
+		padding-top: 0px;
+		padding-bottom: 0px;
 	}
 	.section-002 {
 		padding-top: 35px;
@@ -14481,6 +14485,9 @@ body .az_toggle_default .az_toggle_content p:last-child {
 	}
 }
 @media (max-width: 575px) {
+	.cat-title .nav-tabs{
+		display: none;
+	}
 	.section-033 .container {
 		padding-left: 0;
 		padding-right: 0;
@@ -15166,4 +15173,126 @@ body .kobolg-mapper .text__area {
     background-image: url('../images/coin.gif'); /* Đường dẫn đến hình ảnh GIF */
     background-size: cover; /* Đảm bảo hình ảnh phủ kín phần tử */
     background-position: center; /* Đặt hình ảnh ở giữa */
+}
+
+.sale-item{
+	
+		background-image: url('../images/bgcount.jpg');
+		background-position: center; 
+		background-size: cover;
+}
+.xiaomi-tag {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Căn giữa các phần tử con theo chiều ngang */
+}
+
+.cat-title {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    width: 85%; /* Chiều rộng của cat-title */
+    display: flex;
+    align-items: center; /* Căn giữa các phần tử con theo chiều dọc */
+}
+.cat-title-main{
+	position: relative;
+    color: #fff;
+    padding: 12px 15px 10px;
+    background: #dd0302;
+    padding: 12px 25px 12px 215px;
+    width: fit-content;
+    box-sizing: border-box;
+    font-weight: 700;
+    line-height: 1.1;
+    border-radius: 10px;;
+    width: 510px;
+    text-align: left;
+    max-width: 100%;
+}
+.cat-title-main a {
+    text-transform: uppercase;
+    font-size: 28px;
+    margin: 0px;
+    color: #fff;
+    display: inline-block;
+}
+.cat-title .cat-title-main>a{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+    color: #fff;
+    transition: 0.5s;
+}
+.cat-title-main a .icon_cat_menu {
+    position: absolute;
+    left: 15px;
+    background: url(https://dienthoaihay.vn/modules/home/assets/images/icon_dth.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 193px;
+    height: 51px;
+    top: -10px;
+    box-sizing: border-box;
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cat-title .cat-title-main>a span {
+    color: black;
+    padding-left: 13px;
+}
+.cat-title-main a .icon_cat_menu img {
+    width: 110px;
+    height: auto;
+}
+.after-lazy {
+    opacity: 1;
+    display: inline-block !important;
+}
+.lazy {
+    display: none;
+}
+.cat-title .nav-tabs {
+    float: right;
+    display: flex;
+    width: calc(100% - 510px);
+    justify-content: flex-end;
+	border: none;
+}
+.pull-left {
+    float: left;
+}
+.cat-title .nav-tabs li {
+    margin-left: 0px;
+    cursor: pointer;
+    width: 25%;
+    text-align: center;
+    padding-left: 13px;
+    width: fit-content;
+    min-width: 90px;
+}
+.cat-title .nav-tabs li a {
+    font-size: 16px;
+    font-weight: 700;
+    color: #db0304;
+    background: #fff;
+    padding: 7px 10px 6px;
+    box-sizing: border-box;
+    border-radius:10px;;
+    border: 1px solid #ececec;
+    display: inline-block;
+    line-height: 1.1;
+    width: 100%;
+}
+@media (max-width: 950px){
+	.cat-title .nav-tabs{
+		display: none;
+	}
+}
+@media (max-width: 780px){
+	.tab-link{
+		display: none;
+	}
 }
