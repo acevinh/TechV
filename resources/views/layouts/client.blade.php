@@ -44,6 +44,22 @@
 @include('clients.fields.flashSale')
 {{-- xiaomi --}}
 @include('clients.fields.xiaoMi')
+{{-- realme --}}
+@include('clients.fields.realme')
+{{-- iphone --}}
+@include('clients.fields.iphone')
+{{-- ipad --}}
+@include('clients.fields.ipad')
+{{-- samsung --}}
+@include('clients.fields.samsung')
+{{-- accessory --}}
+@include('clients.fields.accessory')
+{{-- reviewer --}}
+@include('clients.fields.reviewer')
+{{-- advisory --}}
+@include('clients.fields.advisory')
+
+
         {{-- content --}}
         @yield('content')
     </div>
